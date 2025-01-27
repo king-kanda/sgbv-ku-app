@@ -11,7 +11,7 @@ type InfoProps = {
 export default function info( {infoText, btnText} : InfoProps) {
 
   return (
-     <View className='pt-8 container'>
+     <View className='pt-8'>
         <View className='bg-navy/10 border border-navy rounded-lg p-4 '>
             <View className='flex flex-row items-start gap-4 '> 
                 <Feather name="info" size={24} color="#0C426F" />

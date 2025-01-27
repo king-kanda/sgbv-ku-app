@@ -9,13 +9,13 @@ type CardProps = {
 
 export default function card({ name , contact }: CardProps) {
   return (
-     <View className='pt-6 container '>
+     <View className='pt-6'>
 
       <View className='border border-border p-3 rounded-lg'>
         <View className='flex flex-row items-center gap-4'>
             <Feather className='bg-navy p-2 rounded-lg' name="phone" size={40} color="white" />
             <View>
-                <Text className='text-text text-xl font-bold text-red'>{name}</Text>
+                <Text className='text-text text-md font-bold text-red'>{name}</Text>
                 <Text className='text-text text-md'>{contact}</Text>
             </View>
             

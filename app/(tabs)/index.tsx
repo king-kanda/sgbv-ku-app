@@ -1,5 +1,5 @@
 import React ,{useState , useEffect} from "react";
-import SplashScreenView from "./splashScreenView";
+import SplashScreenView from "../splashScreenView";
 import HomeScreenView from "./homeScreenView";
 
 export default function Index() {

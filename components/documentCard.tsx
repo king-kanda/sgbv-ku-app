@@ -9,7 +9,7 @@ type CardProps = {
 
 export default function DocumentCard({ name , summary }: CardProps) {
   return (
-     <View className='pt-6 container '>
+     <View className='pt-4'>
 
       <View className='border border-border p-3 rounded-lg'>
         <View className='flex flex-row items-center gap-4'>
