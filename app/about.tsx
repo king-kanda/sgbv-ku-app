@@ -6,7 +6,7 @@ import Card from '@/components/card';
 import DocumentCard from '@/components/documentCard';
 
 
-export default function splashScreenView() {
+export default function AboutScreenView() {
   return (
     <SafeAreaView className='bg-white ' style={styles.container}>
       
@@ -22,7 +22,11 @@ export default function splashScreenView() {
         </View>
         
         <Card name='Police' contact='0579568956'/>
-      
+        <DocumentCard name='Fire Service' summary='Approved Podlicy'/>
+        
+
+    
+
     </SafeAreaView>
   );
 }
