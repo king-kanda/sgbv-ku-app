@@ -1,5 +1,6 @@
 import { Tabs } from "expo-router";
 import Feather from '@expo/vector-icons/Feather';
+import { useColorScheme } from 'react-native';
 
 
 export default function RootLayout() {
