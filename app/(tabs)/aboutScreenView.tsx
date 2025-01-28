@@ -4,6 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import InfoCard from '@/components/info';
 import Card from '@/components/card';
 import DocumentCard from '@/components/documentCard';
+import Header from '@/components/header';
 
 
 export default function AboutScreenView() {
@@ -38,7 +39,8 @@ export default function AboutScreenView() {
 
 
   return (
-    <SafeAreaView className='bg-white ' style={styles.container}>  
+    <SafeAreaView className='bg-white ' style={styles.container}>
+      <Header/> 
       <ScrollView>
         <View className="px-6">
             <View className='mt-6 flex flex-row items-center justify-center'>

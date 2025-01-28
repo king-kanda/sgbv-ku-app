@@ -2,6 +2,7 @@ import { SafeAreaView, ScrollView, StyleSheet, Text, View , TextInput,} from 're
 import React ,{useState} from 'react'
 import InfoCard from '@/components/info';
 import { Picker } from '@react-native-picker/picker';
+import Header from '@/components/header';
 
 
 // interface IncidentFormData {
@@ -53,12 +54,14 @@ export default function ReportingScreenView() {
 
   return (
     <SafeAreaView className='bg-white '>
+      <Header/>
       <ScrollView className='w-full'>
           <View className='px-6'>
           
             <InfoCard 
                 infoText={'Fill the field below to report and incident , remember this reports are submitted fast , securely and anonymously.In a case where you can’t fill the form press the panic button'}  
                 btnText={'SOS PANIC Button'}
+                link='/reporting'
             />
 
             {/* form section */}

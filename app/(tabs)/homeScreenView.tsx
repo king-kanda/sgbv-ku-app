@@ -3,6 +3,7 @@ import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import InfoCard from '@/components/info';
 import Card from '@/components/card';
+import Header from '@/components/header';
 
 export default function splashScreenView() {
 
@@ -46,12 +47,14 @@ export default function splashScreenView() {
 
   return (
     <SafeAreaView className='bg-white ' style={styles.container}>
+        <Header/>
         <ScrollView className='w-full'>
             <View className='px-6'>
 
                 <InfoCard 
                     infoText={'This Apps is brought to you by the KU Centre for Gender Equity & Empoverment.It is a tool tp help the KU community report and document cases of SGBV'}  
                     btnText={'Report an Incident'}
+                    link='/reporting'
                 />
             
                 {/* text view */}
@@ -75,7 +78,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        // justifyContent: 'space-betwesen',
     },
 })
 
