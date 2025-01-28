@@ -52,7 +52,7 @@ export default function ReportingScreenView() {
 
 
   return (
-    <SafeAreaView className='bg-white ' style={styles.container}>
+    <SafeAreaView className='bg-white '>
       <ScrollView className='w-full'>
           <View className='px-6'>
           
